@@ -1,7 +1,7 @@
 require('dotenv').config();
 const Movie = require('../models/Movies');
 const axios = require('axios');
-const { Responses, moviesResponses } = require('../../cinema-ws/responses/responses');
+const { Responses, moviesResponses } = require('../responses/responses');
 
 const success = Responses.success;
 const error = Responses.internalError;

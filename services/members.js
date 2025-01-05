@@ -1,7 +1,7 @@
 require('dotenv').config();
 const axios = require('axios');
 const Member = require('../models/Members');
-const { Responses, membersResponses } = require('../../cinema-ws/responses/responses');
+const { Responses, membersResponses } = require('../responses/responses');
 const Subscription = require('../models/Subscriptions');
 
 const success = Responses.success;
